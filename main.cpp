@@ -1,6 +1,6 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-    std::cout << "A good project is getting started" << std::endl;
+    cout << "A good project is getting started" <<endl;
     return 0;
 }
