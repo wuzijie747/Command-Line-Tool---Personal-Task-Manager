@@ -12,22 +12,9 @@ int main()
     {
         char addinput;
         cin>>addinput;
-        if(addinput=='a')
-        {
-            cout<<"请输入任务名称\n";
-            cin>>Add;
-            cout<<"请输入任务内容\n";
-            cin>>Add;
-        }
+        cout<<"请输入任务名称\n";
+        cin>>Add;
+        cout<<"请输入任务内容\n";
     }
-    else if(input=='b')
-    {
-        char deleteinput;
-        cin>>deleteinput;
-        if(deleteinput=='b')
-        {
-            cout<<"请输入任务名称\n";
-            cin>>Delete;
-        }
     return 0;
 }
