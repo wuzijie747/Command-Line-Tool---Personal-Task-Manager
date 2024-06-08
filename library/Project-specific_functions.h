@@ -11,15 +11,6 @@
 #include "string"
 #include <stdexcept>
 using namespace std;
-
-template < typename T , typename ... Types>
-void print (const T& firstArg , const Types&... args)
-{
-    cout << firstArg;
-    if constexpr ( sizeof ...(args) > 0) print2 (args...) ;
-    cout<<endl;
-}
-
 string input(const string& n="")
 {
     cout<<n;
@@ -39,6 +30,16 @@ double str(const std::string& str) {
     }
     return 0.0; // 或者返回其他错误码，取决于你的需求
 }
+
+template < typename T , typename ... Types>
+void print (const T& firstArg , const Types&... args)
+{
+    cout << firstArg;
+    if constexpr ( sizeof ...(args) > 0) print2 (args...) ;
+    cout<<endl;
+}
+
+
 
 
 

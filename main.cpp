@@ -11,6 +11,6 @@ int main()
     string input;
     while (1)
     {
-        cin>>input;
+
     }
 }
