@@ -1,7 +1,13 @@
 "D:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Users\wuzijie\CLionProjects\untitled -B D:\Users\wuzijie\CLionProjects\untitled\cmake-build-release
-CMake Error at CMakeLists.txt:2:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "<<<<<<<".
+-- Configuring done (0.1s)
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    library/Create.h
 
 
--- Configuring incomplete, errors occurred!
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: untitled
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
