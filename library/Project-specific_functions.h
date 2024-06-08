@@ -11,14 +11,6 @@
 #include "string"
 #include <stdexcept>
 using namespace std;
-string input(const string& n="")
-{
-    cout<<n;
-    string t;
-    cin>>t;
-    return t;
-}
-
 double str(const std::string& str) {
     try {
         double number = std::stod(str);

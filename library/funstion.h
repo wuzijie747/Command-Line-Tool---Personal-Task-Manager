@@ -9,3 +9,5 @@
 
 #include "Judge_characters.h"
 #include "Project-specific_functions.h"
+
+#include "Command_functions.h"
