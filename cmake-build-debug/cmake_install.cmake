@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: D:/Users/wuzijie/CLionProjects/untitled
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/untitled")
+=======
+# Install script for directory: D:/Users/wuzijie/CLionProjects/untitled4
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/untitled4")
+>>>>>>> c6d09f807fd2f08787c292e1d2d382133dd46004
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +53,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "D:/Users/wuzijie/CLionProjects/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "D:/Users/wuzijie/CLionProjects/untitled4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> c6d09f807fd2f08787c292e1d2d382133dd46004
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

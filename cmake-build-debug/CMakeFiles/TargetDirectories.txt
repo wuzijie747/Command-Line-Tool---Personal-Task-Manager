@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 D:/Users/wuzijie/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
 D:/Users/wuzijie/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Users/wuzijie/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+D:/Users/wuzijie/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir
+D:/Users/wuzijie/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Users/wuzijie/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> c6d09f807fd2f08787c292e1d2d382133dd46004

@@ -6,7 +6,11 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
+<<<<<<< HEAD
 # Project: untitled
+=======
+# Project: untitled4
+>>>>>>> c6d09f807fd2f08787c292e1d2d382133dd46004
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +18,11 @@
 #############################################
 # Rule for compiling CXX files.
 
+<<<<<<< HEAD
 rule CXX_COMPILER__untitled_unscanned_Debug
+=======
+rule CXX_COMPILER__untitled4_unscanned_Debug
+>>>>>>> c6d09f807fd2f08787c292e1d2d382133dd46004
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +32,11 @@ rule CXX_COMPILER__untitled_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
+<<<<<<< HEAD
 rule CXX_EXECUTABLE_LINKER__untitled_Debug
+=======
+rule CXX_EXECUTABLE_LINKER__untitled4_Debug
+>>>>>>> c6d09f807fd2f08787c292e1d2d382133dd46004
   command = cmd.exe /C "$PRE_LINK && D:\mingw64\bin\c++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +54,11 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD
   command = "D:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\wuzijie\CLionProjects\untitled -BD:\Users\wuzijie\CLionProjects\untitled\cmake-build-debug
+=======
+  command = "D:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Users\wuzijie\CLionProjects\untitled4 -BD:\Users\wuzijie\CLionProjects\untitled4\cmake-build-debug
+>>>>>>> c6d09f807fd2f08787c292e1d2d382133dd46004
   description = Re-running CMake...
   generator = 1
 
