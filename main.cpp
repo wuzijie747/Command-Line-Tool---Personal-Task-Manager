@@ -3,7 +3,7 @@
 using namespace std;
 int main() 
 {
-    system("chcp 65001");
+    system("chcp 65001 && cls");
     int Add,Delete,View,mark;
     char input;
     cout<<"这是一个任务管理器，他可以添加任务、删除任务、查看任务列表和标记完成任务.。a=添加,b=删除,c=查看任务列表或查看任务列表.";
