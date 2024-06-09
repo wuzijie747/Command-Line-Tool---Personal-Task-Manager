@@ -5,10 +5,12 @@
 #include "vector"
 #include <map>
 #include <functional>
+
 using namespace std;
 
 int main() 
 {
+    string user = getUsername();
     system("chcp 65001 && cls");
     system("title Task Manager");
     int Add,Delete,View,mark;
@@ -21,7 +23,7 @@ int main()
     };
     while (1)
     {
-        cout<<">>";
+        cout<<user+">";
         cin>>input;
         auto it = actionMap.find(input);
         if (it != actionMap.end()) {
