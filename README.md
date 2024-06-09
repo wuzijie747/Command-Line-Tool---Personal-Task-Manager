@@ -1,5 +1,5 @@
-# Command-Line-Tool---Personal-Task-Manager
-Command Line Tool - Personal Task Manager 
+# Command-line tools --- task note managers
+Command-line tools --- task note managers
 
 A good project is getting started 
 
