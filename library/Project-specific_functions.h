@@ -47,7 +47,13 @@ double str(const std::string& str) {
     }
     return 0.0; // 或者返回其他错误码，取决于你的需求
 }
+std::string operator+(const std::string& str, int num) {
+    return str + std::to_string(num);
+}
 
+std::string operator+(int num, const std::string& str) {
+    return std::to_string(num) + str;
+}
 
 template < typename T , typename ... Types>
 void print (const T& firstArg , const Types&... args)
