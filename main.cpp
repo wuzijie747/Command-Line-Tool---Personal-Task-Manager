@@ -18,7 +18,8 @@ int main()
     string input;
     map<std::string, std::function<void()>> actionMap {
             // 使用 std::pair 插入元素
-            std::make_pair("exit", exit_)
+            std::make_pair("exit", exit_),
+            std::make_pair("version",version)
             // 可以添加更多动作
     };
     while (1)

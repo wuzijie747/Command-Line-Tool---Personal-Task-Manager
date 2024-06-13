@@ -13,3 +13,7 @@ void exit_()
 {
     exit(0);
 }
+void version()
+{
+    print("任务管理器 版本 '1.0.0' 2024/6/13 2024-6-13 TEST\n");
+}
