@@ -19,18 +19,40 @@ int main()
     map<std::string, std::function<void()>> actionMap {
             // 使用 std::pair 插入元素
             std::make_pair("exit", exit_),
-            std::make_pair("version",version)
+            std::make_pair("version",version),
             // 可以添加更多动作
+    };
+    std::map<std::string, std::function<void(const std::string&)>> actionMapString {
+
+            std::make_pair("create", create)
     };
     while (1)
     {
         cout<<user+">";
-        cin>>input;
-        auto it = actionMap.find(input);
+        getline(std::cin, input);
+        size_t space_pos = input.find(' ');
+        string first_part,string,second_part;
+        first_part = second_part = " ";
+        if (space_pos != std::string::npos) {
+            first_part = input.substr(0, space_pos);
+            second_part = input.substr(space_pos + 1);
+        }
+        else
+        {
+            first_part=input;
+        }
+        auto it = actionMap.find(first_part);
         if (it != actionMap.end()) {
             it->second(); // 执行找到的动作
         } else {
-            print("未知命令");
+            auto itString = actionMapString.find(first_part);
+            if (itString != actionMapString.end()) {
+                itString->second(second_part); // 执行找到的动作
+            } else {
+                std::cout << "未知动作" << std::endl;
+            }
         }
+
+
     }
 }
