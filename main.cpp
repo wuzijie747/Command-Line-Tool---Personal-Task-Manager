@@ -30,9 +30,12 @@ int main()
     {
         cout<<user+">";
         getline(std::cin, input);
+        if(input.empty())
+            continue;
         size_t space_pos = input.find(' ');
         string first_part,string,second_part;
         first_part = second_part = " ";
+
         if (space_pos != std::string::npos) {
             first_part = input.substr(0, space_pos);
             second_part = input.substr(space_pos + 1);
@@ -41,6 +44,7 @@ int main()
         {
             first_part=input;
         }
+
         auto it = actionMap.find(first_part);
         if (it != actionMap.end()) {
             it->second(); // 执行找到的动作
