@@ -1,12 +1,12 @@
-# Command-line tools --- task note managers
-Command-line tools --- task note managers
+# 命令行工具---任务笔记管理器
+命令行工具---任务笔记管理器
 
-A good project is getting started 
+一个好的项目正在开始
 
-It is planned to be completed before the summer vacation!(There may also be a delay)
+计划在暑假前完成！（也可能有延迟）
 
-Special thanks to: Wang Xin, Wu Zijie, Huang Wenzhuo！
+特别鸣谢：王信、邬子杰、黄文卓！
 
-If you would like to join us, please contact: huangwenzhuo2202@outlook.com or jieziwu3202@hotmail.com .
+如果您想加入我们，请联系：huangwenzhuo2202@outlook.com 或 jieziwu3202@hotmail.com。
 
-If you would like to provide a vulnerability, please send an email to: jieziwu3202@hotmail.com,thank you.
+如果您想提供漏洞，请发送邮件至：jieziwu3202@hotmail.com，谢谢。
