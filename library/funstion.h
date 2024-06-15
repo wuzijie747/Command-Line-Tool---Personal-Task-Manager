@@ -11,4 +11,7 @@
 #include "Project-specific_functions.h"
 
 #include "Command_functions.h"
+
 #include "Task_functions.h"
+
+#include "variable.h"

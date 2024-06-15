@@ -7,7 +7,29 @@
 
 #endif //UNTITLED_TASK_FUNCTIONS_H
 
-void create(const string& s)
+#include <sstream>
+
+#include <vector>
+
+#include <iostream>
+
+#include <fstream>
+
+#include <string>
+
+#include <cstdlib>
+
+
+
+void create(const std::string& s)
 {
-    print(s);
+
+    std::istringstream iss(s);
+    std::string Text, time;
+    if (iss >> Text && iss >> time) {
+        std::vector<std::string> localVector = {Text, time};
+        // 假设 globalVector 是在其他地方声明的全局变量
+
+    }
+
 }
