@@ -1,14 +1,12 @@
 
 #include "iostream"
 #include<windows.h>
-
 #include "library/funstion.h"
 
 #include "string"
 #include "vector"
 #include <map>
 #include <functional>
-
 using namespace std;
 int main() 
 {
@@ -33,6 +31,8 @@ int main()
         cout<<user+">";
         getline(std::cin, input);
         if(input.empty())
+            continue;
+        if(is_all_whitespace(input))
             continue;
         size_t space_pos = input.find(' ');
         string first_part,string,second_part;
