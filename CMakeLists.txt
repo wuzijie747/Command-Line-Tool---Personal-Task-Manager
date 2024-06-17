@@ -3,11 +3,13 @@ project(untitled) # 或者 project(untitled4)，取决于您的选择
 
 set(CMAKE_CXX_STANDARD 17) # 或者 set(CMAKE_CXX_STANDARD 17)，取决于您的选择
 
+# 添加Python头文件目录
+include_directories("Python311/include")
+
+# 添加Python库文件目录
+link_directories("Python311/libs")
 add_executable(untitled main.cpp)
-# 或者 add_executable(untitled4 main.cpp library/Create.h)，如果选择了项目名称为 untitled4
-link_directories("libs")
-include_directories("include")
 
-# ... 其他 CMake 配置 ...
+set(LIBS python311)
 
-target_link_libraries(untitled ${PYTHON_LIBRARIES})
+target_link_libraries(untitled  ${LIBS})

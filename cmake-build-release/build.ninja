@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.d
 build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_unscanned_Release D$:/Users/wuzijie/CLionProjects/untitled/main.cpp || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles\untitled.dir\main.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -ID:/Users/wuzijie/CLionProjects/untitled/include
+  INCLUDES = -ID:/Users/wuzijie/CLionProjects/untitled/Python311/include
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
@@ -66,7 +66,8 @@ build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_unscanned_Rel
 
 build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Release CMakeFiles/untitled.dir/main.cpp.obj
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lpython311  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LD:/Users/wuzijie/CLionProjects/untitled/Python311/libs
   OBJECT_DIR = CMakeFiles\untitled.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

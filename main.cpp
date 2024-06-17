@@ -1,8 +1,7 @@
-
 #include "iostream"
 #include<windows.h>
 #include "library/funstion.h"
-
+#include "Python311/include/Python.h"
 #include "string"
 #include "vector"
 #include <map>
@@ -10,6 +9,7 @@
 using namespace std;
 int main() 
 {
+    Py_Initialize();
     string user = getUsername();
     system("chcp 65001 && cls");
     system("title Task Manager");
