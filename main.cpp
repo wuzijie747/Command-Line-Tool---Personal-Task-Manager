@@ -9,7 +9,6 @@
 using namespace std;
 int main() 
 {
-    Py_Initialize();
     string user = getUsername();
     system("chcp 65001 && cls");
     system("title Task Manager");
