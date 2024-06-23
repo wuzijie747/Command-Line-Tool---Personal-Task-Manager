@@ -1,12 +1,10 @@
 #include "iostream"
 #include<windows.h>
 #include "library/funstion.h"
-#include "Python311/include/Python.h"
 #include "string"
 #include "vector"
 #include <map>
 #include <functional>
-#include "create.h"
 using namespace std;
 
 int main() 
@@ -25,7 +23,6 @@ int main()
     };
     std::map<std::string, std::function<void(const std::string&)>> actionMapString {
 
-            std::make_pair("create", create)
     };
     while (1)
     {
