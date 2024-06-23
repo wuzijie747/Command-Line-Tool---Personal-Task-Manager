@@ -42,7 +42,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 15,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++17"
 				}
 			],
 			"includes" : 
@@ -90,7 +90,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -99,7 +99,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\Users\\wuzijie\\CLionProjects\\untitled\\Python311\\libs",
+				"fragment" : "-LD:/Users/wuzijie/CLionProjects/untitled/Python311/libs",
 				"role" : "libraryPath"
 			},
 			{

@@ -10,6 +10,7 @@ include_directories("Python311/include")
 link_directories("Python311/libs")
 add_executable(untitled main.cpp)
 
+
 set(LIBS python311)
 
 target_link_libraries(untitled  ${LIBS})
