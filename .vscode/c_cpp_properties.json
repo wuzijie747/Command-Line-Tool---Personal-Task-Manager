@@ -1,15 +1,30 @@
 {
     "configurations": [
         {
-            "name": "Linux",        
+            //名称,操作系统根据这个名称识别对应的属性配置。windows系统:Win32,Linux系统:Linux，macOS系统:Mac。
+            "name": "Win64",
+            //头文件路径，以便IntelliSense(智能感知)引擎的搜索。
+            //下面compilerPath设置了编译器路径，则系统的(C/C++内置的)头文件路径不需要再在下面标出。
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",//当前项目所在根目录并递归搜索子目录，也即当前workspace文件夹的路径，而且还会递归查找所有子目录。
+                "C:\\Program Files\\OpenSSL-Win64\\include"//第三方库的路径。代码中#include后面需要补全位置,这里可以缺省\\**。
             ],
-            "defines": [],
-            "compilerPath":  "D:\\msys64\\ucrt64\\bin\\g++.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+          
+    
+            //IntelliSense(智能感知)引擎在分析文件时要使用的预处理器定义的列表。
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            //根据下面这个路径查询编译器，以便启用更准确的IntelliSense(智能感知),因为IntelliSense有几种模式，见下面配置。
+            //这里并不是调用编译器，真正启用编译器编译的是在tasks.json文件里。
+            //下面值为空，则默认找到的任何编译器。
+            "compilerPath": "D:/msys64/mingw64/bin/gcc.exe",
+            "cStandard": "c17",//用于IntelliSense(智能感知)引擎的c标准(版本)。
+            "cppStandard": "gnu++14",//用于IntelliSense(智能感知)引擎的c++标准(版本)。
+            //IntelliSense有几种模式,Windows系统:windows-msvc-x64,Linux系统:linux-gcc-x64,macOS系统:macos-clang-x64。
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
