@@ -14,6 +14,11 @@
 如果您想提供漏洞，请发送邮件至：jieziwu3202@hotmail.com，或 jieziwu3202@hotmail.com谢谢。
 
 
+
+The following is in English:
+
+
+
 Command-line tools --- task note manager
 
 A good project is getting started
