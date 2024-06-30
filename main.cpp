@@ -1,10 +1,10 @@
 #include "iostream"
-#include<windows.h>
+#include"windows.h"
 #include "library/funstion.h"
 #include "string"
 #include "vector"
-#include <map>
-#include <functional>
+#include "map"
+#include "functional"
 using namespace std;
 
 int main() 
