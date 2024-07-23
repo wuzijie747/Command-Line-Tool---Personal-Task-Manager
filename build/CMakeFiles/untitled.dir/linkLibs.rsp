@@ -1,1 +1,1 @@
-  -LD:/Users/wuzijie/CLionProjects/untitled/Python311/libs  -lpython311 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ -llibrary/curl/lib/libcurl.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

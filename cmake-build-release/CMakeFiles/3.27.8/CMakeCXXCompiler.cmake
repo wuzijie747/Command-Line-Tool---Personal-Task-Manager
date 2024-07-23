@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "D:/mingw64/bin/c++.exe")
+set(CMAKE_CXX_COMPILER "D:/zi64/bin/c++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "8.1.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/mingw64/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "D:/mingw64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/mingw64/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "D:/mingw64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/mingw64/bin/ld.exe")
+set(CMAKE_AR "D:/zi64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/zi64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/zi64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/zi64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/zi64/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
@@ -79,7 +79,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;D:/mingw64/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/zi64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;D:/zi64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;D:/zi64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;D:/zi64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;D:/zi64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;D:/zi64/x86_64-w64-mingw32/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0;D:/mingw64/lib/gcc;D:/mingw64/x86_64-w64-mingw32/lib;D:/mingw64/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "D:/zi64/lib/gcc/x86_64-w64-mingw32/8.1.0;D:/zi64/lib/gcc;D:/zi64/x86_64-w64-mingw32/lib;D:/zi64/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

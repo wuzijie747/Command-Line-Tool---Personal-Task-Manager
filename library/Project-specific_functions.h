@@ -11,6 +11,8 @@
 #include "string"
 #include <stdexcept>
 #include <lmcons.h>
+#include <vector>
+#include <sstream>
 
 using namespace std;
 std::string getUsername() {
@@ -54,7 +56,19 @@ std::string operator+(const std::string& str, int num) {
 std::string operator+(int num, const std::string& str) {
     return std::to_string(num) + str;
 }
+vector<std::string> SBE(const std::string& str) {
+    std::vector<std::string> tokens;
+    std::istringstream iss(str);
+    std::string token;
 
+    while (std::getline(iss, token, ' ')) {
+        if (!token.empty()) {  // 如果不需要空字符串，可以加上这个判断
+            tokens.push_back(token);
+        }
+    }
+
+    return tokens;
+}
 template < typename T , typename ... Types>
 void print (const T& firstArg , const Types&... args)
 {
