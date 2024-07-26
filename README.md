@@ -1,3 +1,6 @@
+项目g++运行指令:
+g++ -o main main.cpp -lwinmm -std=c++17 -mwindows
+
 # 命令行工具---任务笔记管理器
 命令行工具---任务笔记管理器
 
