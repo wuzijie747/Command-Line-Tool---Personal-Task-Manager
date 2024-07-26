@@ -7,6 +7,11 @@
 #include "mmsystem.h"
 #include "library/funstion.h"
 using namespace std;
+/*
+ * 21:25 2024/7/26
+ * 运行命令 : g++ -o main main.cpp -lwinmm -std=c++17 -mwindows
+ * 旧版源文件在main_old.cpp
+ */
 LRESULT CALLBACK WindowProcedure(HWND, UINT, WPARAM, LPARAM);
 HMENU hMenu; // 全局菜单句柄
 #pragma comment (lib,"winmm.lib");
