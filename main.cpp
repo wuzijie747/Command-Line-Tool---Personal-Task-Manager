@@ -104,12 +104,20 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
             if (LOWORD(wParam) == 3){
                 system("start https://github.com/wuzijie747/Command-Line-Tool---Personal-Task-Manager");
             }
+            if(LOWORD(wParam == 5))
+            {
+                string string2 = get_directory() + "\\music.wav";
+                cout<<string2;
+                cout<<string2LPCWSTR(string2);
+                playmusic(string2);
+            }
         }
             break;
         case WM_CREATE: {
             // 创建按钮
             CreateWindowW(L"BUTTON", L"新建任务", WS_VISIBLE | WS_CHILD, 10, 10, 100, 30, hwnd, (HMENU) 1, NULL, NULL);
             CreateWindowW(L"BUTTON", L"退出", WS_VISIBLE | WS_CHILD, 130, 10, 50, 30, hwnd, (HMENU) 2, NULL, NULL);
+            CreateWindowW(L"BUTTON", L"音乐", WS_VISIBLE | WS_CHILD, 210, 10, 50, 30, hwnd, (HMENU) 5, NULL, NULL);
         }
             break;
         case WM_DESTROY:
