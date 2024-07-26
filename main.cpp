@@ -1,12 +1,22 @@
 #include <windows.h>
 #include <iostream>
 #include <fstream>
-
+#include <direct.h>
+#include <locale>
+#include <codecvt>
+#include "mmsystem.h"
+#include "library/funstion.h"
+using namespace std;
 LRESULT CALLBACK WindowProcedure(HWND, UINT, WPARAM, LPARAM);
 HMENU hMenu; // 全局菜单句柄
+#pragma comment (lib,"winmm.lib");
+
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
                    LPSTR lpCmdLine, int nCmdShow) {
+    string string1 = get_directory() + "\\windows95.wav";
+    cout<<string2LPCWSTR(string1);
+    playmusic(string1);
     WNDCLASSEX wc;
     HWND hwnd;
     MSG Msg;
